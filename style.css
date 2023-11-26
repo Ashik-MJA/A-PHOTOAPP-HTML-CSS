@@ -1,0 +1,580 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Sujan
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+
+@font-face {
+	font-family: "gothamRoundedBold";
+	src: url('fonts/something.woff') format('woff');
+}
+@font-face {
+	font-family: "gothamRoundedBook";
+	src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+
+
+body{
+	font-family: "gothamRoundedBook";
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+/****** header area ******/
+
+
+.container {
+	width: 90%;
+	margin: 0 auto; 
+	max-width: 1000px;
+}
+
+.header-area {
+	background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	color: #FFFFFF;
+	text-align: center;
+	overflow: hidden;
+	padding: 25px 0;
+}
+
+
+
+
+/*******== 2.1 menu area ==*******/
+
+
+.menu-area ul {
+	text-align: center;
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+
+.menu-area ul li {
+	display: inline;
+	margin: 0 24px;
+}
+.menu-area ul li a {
+	color: #FFFFFF; 
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-bottom: 1px solid transparent;
+	display: inline-block; 
+	padding-bottom: 10px;
+	transition: .5s;
+	font-family: "gothamRoundedBold";
+	margin:0 10px;
+	font-size:1rem;
+	letter-spacing: 2px;
+}
+
+.menu-area ul .logo img {
+	margin: 5px 37px 0 37px;
+	width: 50px;
+	height: auto;
+}
+
+.menu-area ul .logo a {
+	border: none;
+}
+
+.menu-area ul .logo a:hover {
+	border: none;
+}
+
+
+.menu-area ul li a:hover {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+
+/********** 	2.2 Welcome Text     **********/
+
+.welcome-text {
+	margin-top: 198px;
+	overflow: hidden;
+}
+.welcome-text h2{
+	font-family: "gothamRoundedBold";
+	font-size:2.3rem;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom:0;
+}
+
+
+
+.welcome-text h5{
+	margin-top:7px;
+	font-size:.9rem;
+	letter-spacing: 3px;
+
+
+}
+
+
+.btn {
+	text-decoration: none; 
+	font-size:.7rem;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	background: #16A086;
+	text-transform: uppercase;
+	padding: 16px 31px;
+	border-radius: 3px;
+	display: inline-block;
+	transition: .4s;
+	border: 1px solid transparent;
+	font-family: "gothamRoundedBold";
+
+}
+.btn:hover {
+	background: #FFFFFF;
+	color: #16A086;
+	border: 1px solid #16A086;
+}
+
+
+
+/********** 		2.3 Social Media       ***********/
+
+.social-media {
+	overflow: hidden;
+	margin-top: 190px;
+}
+.social-media ul {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-media ul li {
+	display: inline; 
+	margin: 0 10px;
+}
+.social-media ul li a {
+	color: #FFFFFF;  
+	text-decoration: none;
+	font-size:1.6rem;
+}
+
+
+.social-media ul li a:hover{
+	color:#16A086;
+}
+
+
+
+
+/*** = get start section start = ***/
+
+
+.getstart{
+	background-color:#F5F6F8;
+	overflow: hidden;
+}
+
+
+.poto{
+	margin:90px 120px 0 0;
+	background-image: url(images/hand.png);
+	background-size:54%;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.text-area{
+	width:44%;
+	padding:4px 0 80px 60px;
+	margin-left:60px;
+}
+
+
+.text-area h3{
+	font-family: "gothamRoundedBold";
+	font-size:1.2rem;
+	text-transform: uppercase;
+	color:#179C7F;
+	letter-spacing: 2px;
+	margin-bottom:2.8rem;
+
+}
+
+.text-area p{
+	font-size:.8rem;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	line-height: 2;
+	margin-bottom:3rem;
+	color:#757679;
+}
+
+
+/*** start design section ***/
+
+
+.potophone{
+	margin:120px 0 0 90px;
+	background-image: url(images/mobile.png);
+	background-size:28%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	overflow: hidden;
+
+}
+
+
+.design-text{
+	padding:4px 60px 0px 0px;
+	margin-right:60px;
+	float:right;
+}
+
+.design-text h3{
+	font-family: "gothamRoundedBold";
+	font-size:1.2rem;
+	text-transform: uppercase;
+	color:#179C7F;
+	letter-spacing: 2px;
+	margin-bottom:2.8rem;
+}
+
+.design-text p{
+	font-size:.8rem;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	line-height: 2;
+	margin-bottom:3rem;
+	color:#757679;
+}
+
+.design-text .next{
+	padding-bottom:3rem;
+}
+
+.design-text .next h5{
+	margin-top:2rem;
+	margin-bottom: 0;
+	color:#757679;
+}
+.design-text .next a{
+	font-size: 2rem;
+	margin-right:10px;
+	color:#010101;
+}
+
+/*** = start community section = ***/
+
+.community{
+	padding-top:5rem;
+	background-color:#F5F6F8;
+	padding-bottom:4rem;
+}
+.community .angel{
+	text-align: right;
+	margin-right:5.9rem;
+	display:block;
+	overflow: hidden;
+}
+
+.community .angel a{
+	font-size:2rem;
+	color:#000000;
+	margin-left:10px;
+}
+
+
+.our-con{
+	text-align:center;
+	display: block;
+}
+
+.our-con .our-con1{
+	display:inline-block;
+	text-align: center;
+	width:25%;
+	height:200px;
+	margin-left:30px;
+}
+
+.our-con .our-con1 h3{
+	font-size:1rem;
+	color:#1B1C1E;
+	letter-spacing: 3px;
+	font-family: "gothamRoundedBold";
+	text-transform: uppercase;
+}
+.our-con .our-con1 p{
+	font-size:.7rem;
+	color:#3B3C3E;
+	letter-spacing: 1px;
+}
+
+
+
+
+.our-con .our-con2{
+	display:inline-block;
+	width:27%;
+	height:230px;
+	background-image:url(images/van.png);
+	background-position: center;
+	background-size: cover;
+	margin-left:30px;
+}
+
+
+.our-con .our-con3{
+	display:inline-block;
+	width:27%;
+	height:230px;
+	background-image:url(images/leaf.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-left:30px;
+
+}
+
+
+
+
+/******* start subscribe area *******/
+
+
+.subscrib-area{
+	overflow: hidden;
+	width:100%;
+	min-height: 700px;
+	background-image:url(images/subscribe-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+}
+
+
+.subscrib-area .subscrib{
+	margin:auto;
+	text-align:center;
+}
+
+
+.subscrib-area .subscrib h1{
+	font-size:1.4rem;
+	letter-spacing: 5px;
+	color:#ffffff;
+	text-transform: uppercase;
+}
+
+.subscrib-area .subscrib input{
+	margin-right: 0;
+	padding:18px 32px;
+	color:#000000;
+	border:1px solid transparent;
+	border-radius:3px 0 0 3px;
+}
+
+.subscrib-area .subscrib input:hover{
+	border:1px solid transparent;
+}
+
+
+
+.subscrib-area .subscrib button{
+	margin-left:-5px;
+	padding:9px 29px 16px 29px;
+	background-color:#1AA181;
+	border:1px solid transparent;
+	font-size:1.6rem;
+	color:#ffffff;
+	border-radius:0 3px 3px 0;
+}
+
+.subscrib-area .subscrib button:hover{
+	border:1px solid #1AA181;
+	background-color:#ffffff;
+	color:#1AA181;
+}
+
+
+
+
+/****** start download area ******/
+
+.download{
+	padding: 5rem 0;
+	text-align:center;
+	background-color:#F5F6F8;
+}
+
+/* .download .download-text{
+
+
+} */
+.download .download-text h2{
+	margin:0;
+	text-transform: uppercase;
+	font-size:1.3rem;
+	font-family: "gothamRoundedBold";
+	letter-spacing: 3px;
+	color:#393A3C;
+}
+.download .download-text p{
+	text-transform: uppercase;
+	color:#393A3C;
+	font-size:.7rem;
+	line-height: 2;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	margin-bottom:3rem;
+}
+
+
+
+/* .download-type .apple{
+	display:inline-block;
+	display: flex;
+	margin-right:20px;
+	
+
+} */
+.download-type{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.apple{
+	/* display:inline-block; */
+	display: flex;
+	/* margin-right:20px; */
+	
+
+}
+.download-type .apple span{
+	text-transform: uppercase;
+	padding:20px 70px 16px 30px;
+	font-family: "gothamRoundedBold";
+	background-color:#1BBC9B;
+	color:#ffffff;
+	letter-spacing: 3px;
+	border-radius: 3px 0 0 3px;
+	overflow: hidden;
+
+}
+.download-type .apple a{
+	margin-left:-5px;
+	padding:10px 20px 14px 20px;
+	background-color:#16A086;
+	color:#ffffff;
+	font-size:1.6rem;
+	border-radius: 0 3px 3px 0;
+}
+
+
+
+
+
+
+/* .download-type .play-store{
+	display:inline-block;
+
+} */
+.play-store{
+	display:flex;
+
+}
+
+.download-type .play-store span{
+	text-transform: uppercase;
+	padding:20px 70px 16px 30px;
+	font-family: "gothamRoundedBold";
+	background-color:#1BBC9B;
+	color:#ffffff;
+	letter-spacing: 3px;
+	border-radius: 3px 0 0 3px;
+	overflow: hidden;
+
+}	
+
+
+.download-type .play-store a{
+	margin-left:-5px;
+	padding:10px 20px 14px 20px;
+	background-color:#16A086;
+	color:#ffffff;
+	font-size:1.6rem;
+	border-radius: 0 3px 3px 0;
+}
+
+
+/**** start footer section ****/
+
+.footer{
+	padding:3rem;
+	font-family: "gothamRoundedBold";
+
+}
+
+.footer .footer-left{
+	display: inline-block;
+}
+.footer .footer-left p{
+	text-transform: uppercase;
+	font-size:.8rem;
+	letter-spacing: 2px;
+	color:#535353;
+}
+
+.footer .footer-left .text{
+	background:#16A086;
+	border-left:2px solid #16A086;
+	margin-right:6px;
+
+}
+
+.footer .footer-left .text-bottom{
+	font-size:.9rem;
+	color:#535353;
+	letter-spacing: 3px;
+}
+
+
+.footer .footer-right{
+	display: inline-block;
+	float:right;
+	margin-right:4rem;
+}
+

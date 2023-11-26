@@ -1,0 +1,134 @@
+/**** start responsive ****/
+
+
+@media all and (max-width:1000px){
+	.container {
+	width: 100%;
+
+}
+.menu-area ul li a {
+	margin-top:8px;
+}
+.poto{
+
+	background-size:70%;
+
+}
+.text-area{
+	width:80%;
+	padding:4px 0 80px 60px;
+	margin-left:30px;
+}
+.potophone{
+	margin-right:3rem;
+	background-size:40%;
+	background-position: top right;
+
+}
+.design-text{
+	margin-right:30px;
+	float:left;
+}
+.our-con .our-con2{
+	
+	width:35%;
+
+}
+
+.our-con .our-con3{
+	display:block;
+	width:35%;
+	margin:auto;
+	
+
+}
+
+
+
+}
+@media all and (max-width:725px){
+.our-con .our-con2{
+	
+	width:45%;
+
+}
+
+.our-con .our-con3{
+	display:block;
+	width:45%;
+	margin:auto;
+	
+
+}
+}
+
+
+@media all and (max-width:625px){
+.download-type .apple{
+	display:block;
+	margin-bottom:3rem;
+	
+
+}
+.footer .footer-right{
+	display: block;
+	margin:auto;
+	float:none;
+	text-align:center;
+}
+.our-con .our-con2{
+	display:block;
+	margin:auto;
+	width:80%;
+	margin-bottom:2rem;
+	margin-top:2rem;
+
+}
+
+.our-con .our-con3{
+	display:block;
+	width:80%;
+	margin:auto;
+}
+.our-con .our-con1{
+	display:block;
+	text-align: center;
+	width:50%;
+}
+.download-type {
+	flex-wrap: wrap;
+}
+
+
+}
+
+@media all and (max-width:465px){
+
+.poto{
+
+	background-size:90%;
+
+}
+.text-area{
+	width:100%;
+}
+.potophone{
+	background-size:60%;
+
+}
+.subscrib-area .subscrib h1{
+	font-size:1rem;
+	letter-spacing: 3px;
+
+}
+
+.subscrib-area .subscrib input{
+	padding:11px 22px;
+}
+.subscrib-area .subscrib button{
+	padding:4px 29px 10px 29px;
+	font-size:1.2rem;
+	
+}
+
+}
